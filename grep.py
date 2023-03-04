@@ -30,4 +30,4 @@ except:
 cs = c.split("\n")
 for i in range(0,len(cs) - 1):
     if word in cs[i]:
-        print("line " + str(i + 1) + "\n" + cs[i])
+        print(Fore.BLUE + "line " + str(i + 1) + "\n" + cs[i])
